@@ -12,7 +12,7 @@ describe('test case', () => {
   })
   it('test2', () => {
     const pc = new Product()
-    const electronic: any = new Category()
+    const electronic = new Category()
 
     pc.setCategory(electronic)
 
