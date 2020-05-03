@@ -1,9 +1,11 @@
+import { Category } from './category'
 
 export class Product {
-  private category: any
+  private category: Category
 
-  setCategory(aCategory: any) {
+  setCategory(aCategory: Category) {
     this.category = aCategory
+    aCategory.addProduct(this)
   }
 
   getCategory() {
