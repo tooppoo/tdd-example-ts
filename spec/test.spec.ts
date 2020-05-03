@@ -1,3 +1,4 @@
+import { Category } from '../src/category'
 import { Product } from '../src/product'
 
 describe('test case', () => {
