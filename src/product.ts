@@ -1,10 +1,12 @@
 
 export class Product {
-  setCategory(aCategory: any) {
+  private category: any
 
+  setCategory(aCategory: any) {
+    this.category = aCategory
   }
 
   getCategory() {
-    return {}
+    return this.category
   }
 }
