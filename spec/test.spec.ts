@@ -1,7 +1,8 @@
+import { Product } from '../src/product'
 
 describe('test case', () => {
   it('test1', () => {
-    const pc: any = new Product()
+    const pc = new Product()
     const electronic: any = {}
 
     pc.setCategory(electronic)
